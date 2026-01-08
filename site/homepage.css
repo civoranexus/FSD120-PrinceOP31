@@ -27,9 +27,40 @@ nav button{
     color: white;
     border-radius: 12px;
 }
-.picture img{
+.picture{
+background-image:url(logos/HC_Blog-6.jpg);
+background-position: center center;
 position: relative;
-  width: 1532px;
-  height: 700px;
-  opacity: 0.6 ;
+background-repeat: no-repeat;
+height: 95vh;
+ background-size: max(1200px, 100vw);
+ align-content: center;
 }
+.title{
+  font-size: 100px;
+
+}
+.box{
+  opacity:;
+}
+.title span{
+  color: #4C97A8;
+}
+/* .picture .pic{
+height: 95vh;
+  width: 100%; 
+  opacity: 0.79;
+  position: absolute;
+  top: 0;
+  
+} */
+ .box{
+  margin-left: 120px;
+ }
+ .btn button{
+
+  border-radius: 15px;
+padding: 15px 60px 15px 60px;
+cursor: pointer;
+background: #4C97A8;
+ }
