@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+     font-family: "Lato", sans-serif;
 }
 nav{
     display: flex;
@@ -46,6 +47,9 @@ height: 95vh;
 .title span{
   color: #4C97A8;
 }
+.title p{
+ font-size: 40px;
+}
 /* .picture .pic{
 height: 95vh;
   width: 100%; 
@@ -56,11 +60,30 @@ height: 95vh;
 } */
  .box{
   margin-left: 120px;
+  display: flex;
  }
  .btn button{
-
+  
   border-radius: 15px;
 padding: 15px 60px 15px 60px;
 cursor: pointer;
-background: #4C97A8;
+background: #E0F7FA;
+transition: all 0.8s ease-in;
+font-size: 20px;
  }
+ .btn{
+  align-content: center;
+ }
+.btn button:hover{
+  background-color: white;
+}
+a{
+text-decoration: none;
+
+}
+.btn button a{
+  color: black;
+}
+nav button a{
+  color: white;
+}
