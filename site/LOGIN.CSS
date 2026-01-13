@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Lato", sans-serif;
+
 }
 .main{
 background-image: url(logos/HC_Blog-6.jpg);
@@ -20,4 +22,25 @@ height: 100vh;
   margin-right: auto;
   text-align: center;
   border-radius: 15px;
+  
+}
+.box .log{
+  font-size: 35px;
+}
+.area{
+  width: 245px;
+  height: 40px;
+  border-radius: 15px;
+}
+.box .tag{
+  font-size: 25px;
+}
+.log_btn{
+  height: 30px;
+  width: 120px;
+}
+.box form select{
+height: 35px;
+width: 140px;
+
 }
