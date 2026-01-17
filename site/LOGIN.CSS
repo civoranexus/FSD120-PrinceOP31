@@ -38,9 +38,14 @@ height: 100vh;
 .log_btn{
   height: 30px;
   width: 120px;
+ 
 }
 .box form select{
 height: 35px;
 width: 140px;
 
+}
+.log_btn a{
+   text-decoration: none;
+   color: black;
 }

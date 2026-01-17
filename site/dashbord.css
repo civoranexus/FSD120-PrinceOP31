@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+     font-family: "Lato", sans-serif;
+}
+.navv .img img{
+    height: 35px;
+}
+.navv{
+    display: flex;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+   
+}
+.option{
+  
+    margin-left: 115px;
+  margin-top: 15px;
+  
+
+}
+.option span{
+    font-size: 25px;
+    padding: 25px;
+}
+.option span a{
+    text-decoration: none;
+    color: black;
+}
