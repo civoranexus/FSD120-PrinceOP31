@@ -5,6 +5,7 @@
 }
 .navv .img img{
     height: 35px;
+  
 }
 .navv{
     display: flex;
@@ -25,4 +26,28 @@
 .option span a{
     text-decoration: none;
     color: black;
+}
+.quick{
+    display: flex;
+  justify-content: space-around;
+margin-top: 200px;
+/* border: 2px solid black; */
+/* background-color: rgb(238, 234, 234); */
+}
+.btn button{
+    width: 170px;
+    height: 120px;
+transition: all 0.8s ease-in;
+border-radius: 13px;
+box-shadow: 1px 1px 2px black;
+
+}
+.btn button a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.btn button:hover{
+    background-color: #E0F7FA;
+    box-shadow: 2px 2px 8px black;
 }
