@@ -31,6 +31,7 @@
     display: flex;
   justify-content: space-around;
 margin-top: 200px;
+margin-bottom: 200px;
 /* border: 2px solid black; */
 /* background-color: rgb(238, 234, 234); */
 }
@@ -50,4 +51,35 @@ box-shadow: 1px 1px 2px black;
 .btn button:hover{
     background-color: #E0F7FA;
     box-shadow: 2px 2px 8px black;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 400px;
+    
+}
+.quicks{
+    display: flex ;
+    justify-content: space-around;
+    margin-top: 200px;
+ margin-bottom: 90px;
+
+}
+.workdone{
+    display: flex;
+ 
+}
+.workdone div{
+margin: 145px;
+  font-size: 17px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+padding-top: 70px;
+
+}
+.logeo img{
+    height: 70px;
 }
