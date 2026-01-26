@@ -17,7 +17,6 @@
     margin-left: 115px;
   margin-top: 15px;
   
-
 }
 .option span{
     font-size: 25px;
@@ -82,4 +81,17 @@ padding-top: 70px;
 }
 .logeo img{
     height: 70px;
+}
+.end{
+    margin-top: 140px;
+}
+.line{
+    border: 1px solid white;
+  margin-left: 225px;
+  margin-right: 225px;
+}
+.copy{
+    text-align: center;
+  margin: 50px;
+
 }
