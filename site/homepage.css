@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+     font-family: "Lato", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #9b0d0d; */
+    height: 30px;
+   margin: 10px;
+}
+nav span img{
+height: 35px;
+}
+nav span{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  color: #012136;
+}
+nav button{
+    cursor: pointer;
+    padding:5px;
+    background-color:#012136;
+    color: white;
+    border-radius: 12px;
+}
+.picture{
+background-image:url(logos/HC_Blog-6.jpg);
+background-position: center center;
+position: relative;
+background-repeat: no-repeat;
+height: 95vh;
+ background-size: max(1200px, 100vw);
+ align-content: center;
+}
+.title{
+  font-size: 100px;
+
+}
+.box{
+  opacity:;
+}
+.title span{
+  color: #4C97A8;
+}
+.title p{
+ font-size: 40px;
+}
+/* .picture .pic{
+height: 95vh;
+  width: 100%; 
+  opacity: 0.79;
+  position: absolute;
+  top: 0;
+  
+} */
+ .box{
+  margin-left: 120px;
+  display: flex;
+ }
+ .btn button{
+  
+  border-radius: 15px;
+padding: 15px 60px 15px 60px;
+cursor: pointer;
+background: #E0F7FA;
+transition: all 0.8s ease-in;
+font-size: 20px;
+ }
+ .btn{
+  align-content: center;
+ }
+.btn button:hover{
+  background-color: white;
+}
+a{
+text-decoration: none;
+
+}
+.btn button a{
+  color: black;
+}
+nav button a{
+  color: white;
+}

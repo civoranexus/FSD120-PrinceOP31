@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+
+}
+.main{
+background-image: url(logos/HC_Blog-6.jpg);
+ background-position: center center;
+position: relative;
+background-repeat: no-repeat;
+height: 100vh;
+ background-size: max(1200px, 100vw);
+ align-content: center;
+}
+.box{
+    border: 2px solid black;
+    height: 70%;
+  background-color: white;
+    width: 400px;        /* Must specify a width */
+  margin-left: auto; /* Centers horizontally */
+  margin-right: auto;
+  text-align: center;
+  border-radius: 15px;
+  
+}
+.box .log{
+  font-size: 35px;
+}
+.area{
+  width: 245px;
+  height: 40px;
+  border-radius: 15px;
+}
+.box .tag{
+  font-size: 25px;
+}
+.log_btn{
+  height: 30px;
+  width: 120px;
+ 
+}
+.box form select{
+height: 35px;
+width: 140px;
+
+}
+.log_btn a{
+   text-decoration: none;
+   color: black;
+}
